@@ -1,0 +1,53 @@
+.titulo{
+    color: blue;
+    margin: 0vh 0vw 0vh 3vw;
+    width: 50vw;
+    height: 10vh;
+}
+.formulario{
+    display: flex;
+   
+    flex-direction: column;
+    margin: 0vh 0vw 0vh 24vw;
+}
+.inputs{
+    width: 20vw;
+    margin: 2vh 0vw 2vh 15vw;
+}
+.boton{
+    width: 10vw;
+    margin: 2vh 0vw 2vh 20vw;
+}
+.contenedor{
+   display: flex;
+   flex-direction: column;
+   margin: 0vh 0vw 0vh 25vw;
+   border: 2px solid white;
+   width: 52vw;
+   justify-content: center;
+}
+.tituloCard{
+    color: blue;
+    margin: 0vh 0vw 0vh 0vw;
+    width: 50vw;
+    height: 10vh;
+    text-align: center;
+}
+.cancion{
+    color: greenyellow;
+    margin: 0vh 0vw 0vh 0vw;
+    width: 50vw;
+    height: 10vh;
+    text-align: center;
+}
+.genero{
+    color:greenyellow;
+    margin: 0vh 0vw 0vh 0vw;
+    width: 50vw;
+    height: 10vh;
+    text-align: center;
+}
+.mensajeError{
+    color: red;
+    margin: 5vh 0vw 0vh 33vw;
+}
