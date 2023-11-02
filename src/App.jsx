@@ -32,9 +32,9 @@ function App() {
       { !validacion&&
           <form className={styleApp.formulario} onSubmit={handleSubmit} >
           <h1 className={styleApp.titulo}>Escribe tu cancion favorita</h1>
-             <input className={styleApp.inputs} type="text" placeholder='Escribe tu nombre' onChange={handleNombre}/>
-             <input className={styleApp.inputs} type="text" placeholder='Escribe tu cancion favorita' onChange={handleCancion} />
-             <input className={styleApp.inputs}type="text" placeholder='Escribe el genero de tu cancion' onChange={handleGenero} />
+             <input className={styleApp.inputs} type="text" placeholder='Escribe tu nombre (Minimo 3 caracteres)' onChange={handleNombre}/>
+             <input className={styleApp.inputs} type="text" placeholder='Cancion favorita (Minimo 3 caracteres)' onChange={handleCancion} />
+             <input className={styleApp.inputs}type="text" placeholder='Genero de tu cancion (Minimo 6 caracteres)' onChange={handleGenero} />
              <button className={styleApp.boton}>Enviar</button>
           </form>
       }
